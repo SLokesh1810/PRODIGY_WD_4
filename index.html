@@ -12,62 +12,134 @@
 <body>
 
     <div class="nav">
-        <a>Home</a>
-        <a>About</a>
-        <a>Skills</a>
-        <a>Projects</a>
-        <a>Contact</a>
+        <a href="#page1">Home</a>
+        <a href="#page2">About</a>
+        <a href="#page3">Skills</a>
+        <a href="#page4">Projects</a>
+        <a href="#page5">Contact</a>
     </div>
-
-    <section class="page1">
-        <div class="helloCon">
-            <h1>Hello, I am Lokesh</h1>
-            <h2>An aspiring AI/ML engineer, Web Developer and Designer</h2>
+    <div class="container">
+        <div class="page1" id="page1">
+            <div class="helloCon">
+                <h1>Hello, I am <span>Lokesh</span></h1>
+                <h2>An aspiring <span>AI/ML engineer</span>, <br><span>Web Developer</span> and <span>Designer</span>
+                </h2>
+            </div>
+            <img src="/PRODIGY_WD_4/Images/LokeshPic.jpg" alt="">
         </div>
-        <img src="/PRODIGY_WD_4/Images/LokeshPic.jpg" alt="">
-    </section>
 
 
-    <section class="page2">
-        <h2 id="aboutMeHead"></h2>
-        <p id="aboutMeText">
-        </p>
-    </section>
+        <div class="page2" id="page2">
+            <h2 id="aboutMeHead">ABOUT ME</h2>
+            <p id="aboutMeText">
+            </p>
+        </div>
 
-    <h2>SKILLS</h2>
-    <img class="skills" src="/PRODIGY_WD_4/Images/pythonLogo.png" alt="Python">
-    <img class="skills" src="/PRODIGY_WD_4/Images/figmaLogo.png" alt="Figma">
-    <img class="skills" src="/PRODIGY_WD_4/Images/powerbiLogo.png" alt="PowerBI">
-    <img class="skills" src="/PRODIGY_WD_4/Images/djangoLogo.png" alt="Django">
-    <img class="skills" src="/PRODIGY_WD_4/Images/flaskLogo.png" alt="Flask">
-    <img class="skills" src="/PRODIGY_WD_4/Images/htmlLogo.png" alt="HTML">
-    <img class="skills" src="/PRODIGY_WD_4/Images/cssLogo.png" alt="CSS">
-    <img class="skills" src="/PRODIGY_WD_4/Images/jsLogo.png" alt="JS">
-    <img class="skills" src="/PRODIGY_WD_4/Images/mysqlLogo.png" alt="MySql">
-    <img class="skills" src="/PRODIGY_WD_4/Images/gitLogo.png" alt="MySql">
+        <section class="page3" id="page3">
+            <h2>SKILLS</h2>
+            <div class="skillsImgs">
+                <div class="skills"><img src="/PRODIGY_WD_4/Images/pythonLogo.png" alt="Python"></div>
+                <div class="skills"><img src="/PRODIGY_WD_4/Images/figmaLogo.png" alt="Figma"></div>
+                <div class="skills"><img src="/PRODIGY_WD_4/Images/powerbiLogo.png" alt="PowerBI"></div>
+                <div class="skills"><img src="/PRODIGY_WD_4/Images/djangoLogo.png" alt="Django"
+                        style="height: 60px; margin-top: 13px;"></div>
+                <div class="skills"><img src="/PRODIGY_WD_4/Images/flaskLogo.png" alt="Flask"></div>
+                <div class="skills"><img src="/PRODIGY_WD_4/Images/htmlLogo.png" alt="HTML"></div>
+                <div class="skills"><img src="/PRODIGY_WD_4/Images/cssLogo.png" alt="CSS" style="padding: 8px 12px">
+                </div>
+                <div class="skills"><img src="/PRODIGY_WD_4/Images/jsLogo.png" alt="JS"></div>
+                <div class="skills"><img src="/PRODIGY_WD_4/Images/mysqlLogo.png" alt="MySql"
+                        style="height: 60px; padding: 0; margin-top: 13px;"></div>
+                <div class="skills"><img src="/PRODIGY_WD_4/Images/gitLogo.png" alt="Git"></div>
+            </div>
+        </section>
 
-    <h2>PROJECTS</h2>
+        <section class="page4" id="page4">
+            <h2>PROJECTS</h2>
+            <section class="projects">
+                <div class="projectContainer">
+                    <div class="projectImgs"><a href="">Visit repository</a><img
+                            src="/PRODIGY_WD_4/Images/DataScienceProjectImg.png" alt=""></div>
+                    <hr>
+                    <div class="projectDesc">
+                        <p>The data signals of semiconductors are studied with Python through necessary modules such as
+                            NumPy,
+                            Pandas, Matplotlib and sklearn. The data is cleaned, structured, visualized, optimzed and
+                            analysed.
+                            It carefully reviewed and analyised to find an accurate assumptions. The data consists of
+                            1567
+                            examples each with 591 features.</p>
+                    </div>
+                </div>
 
-    <h3>Study of Semiconductors</h3>
-    <img src="/PRODIGY_WD_4/Images/DataScienceProjectImg.png" alt="">
+                <div class="projectContainer">
+                    <div class="projectDesc">
+                        <p>A data visualization analysis of the details of the employees in profession or carreer
+                            related to
+                            data. The data is cleaned, analysed and appropriate & useful visualizations are displayed.
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="projectImgs"><a href="">Visit repository</a><img
+                            src="/PRODIGY_WD_4/Images/DataAnalysisProjectImg.png" alt=""></div>
+                </div>
 
-    <h3>Data Profession Analysis</h3>
-    <img src="/PRODIGY_WD_4/Images/DataAnalysisProjectImg.png" alt="">
+                <div class="projectContainer">
+                    <div class="projectImgs"><a href="">Visit repository</a><img
+                            src="/PRODIGY_WD_4/Images/PersonalScorecardProjectImg.png" alt=""></div>
+                    <hr>
+                    <div class="projectDesc">
+                        <p>A scorecard storing web app for football and cricket. It stores the match details in a
+                            database
+                            to
+                            revisit them whenever the user wants. It is user-friendly and easy-to-use. It tracks and
+                            shows
+                            the
+                            necessary details detailed.</p>
+                    </div>
+                </div>
 
-    <h3>Personal Scorecard</h3>
-    <img src="/PRODIGY_WD_4/Images/PersonalScorecardProjectImg.png" alt="">
+                <div class="projectContainer">
+                    <div class="projectDesc">
+                        <p>A weather dashboard to show the climate conditions of your current and neighbouring
+                            locations. It
+                            can
+                            also show the climate conditions of the location you want to know with the help of a search
+                            bar.
+                            Open weather API is used for getting the details of the climate conditions.</p>
+                    </div>
+                    <hr>
+                    <div class="projectImgs"><a href="">Visit repository</a><img
+                            src="/PRODIGY_WD_4/Images/WeatherDashboardProjectImg.png" alt=""></div>
+                </div>
 
-    <h3>Weather Dashboard</h3>
-    <img src="/PRODIGY_WD_4/Images/WeatherDashboardProjectImg.png" alt="">
+                <div class="projectContainer">
+                    <div class="projectImgs"><a href="">Visit repository</a><img
+                            src="/PRODIGY_WD_4/Images/tictaktoeProjectImg.png" alt=""></div>
+                    <hr>
+                    <div class="projectDesc">
+                        <p>A website for playing tic-tac-toe with your friends. It has a dark and vibrant interface. An
+                            image
+                            of the website is shared below.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
 
-    <h3>Tic-Tac-Toe</h3>
-    <img src="/PRODIGY_WD_4/Images/tictaktoeProjectImg.png" alt="">
-
-    <h2>CONTACTS</h2>
-    <h3>Mail ID : </h3>
-    <img src="/PRODIGY_WD_4/Images/githubIcon.png" alt="Github" width="50px">
-    <img src="/PRODIGY_WD_4/Images/linkedinLogo.png" alt="LinkedIn">
-    <img src="/PRODIGY_WD_4/Images/locationIcon.png" alt="location">
+        <section class="page5" id="page5">
+            <h2>CONTACT ME</h2>
+            <form action="">
+                <input type="text" placeholder="Name"><br>
+                <input type="email" placeholder="Email ID"><br>
+                <textarea name="message" placeholder="Message" id="message"></textarea>
+            </form>
+            <img src="/PRODIGY_WD_4/Images/githubIcon.png" alt="Github">
+            <img src="/PRODIGY_WD_4/Images/linkedinLogo.png" alt="LinkedIn"><br>
+            <div class="location"><img src="/PRODIGY_WD_4/Images/locationIcon.png" alt="location">
+                <p> : Chennai, TamilNadu</p>
+            </div>
+        </section>
+    </div>
 
     <script src="/PRODIGY_WD_4/script.js"></script>
 
