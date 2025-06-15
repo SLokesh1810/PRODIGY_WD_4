@@ -95,3 +95,7 @@ const scrollObserver = new IntersectionObserver((entries, observer) => {
 projectContainers.forEach(container => {
     scrollObserver.observe(container);
 });
+
+function openSite(link){
+    window.open(link);
+}
